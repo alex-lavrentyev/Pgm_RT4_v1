@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2595490519</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Exe\pgm.d90</file>
+      <file>$PROJ_DIR$\burn.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\tools.r90</file>
+      <file>$PROJ_DIR$\Debug\List\pgm.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\tools.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\iom16.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom16.inc</file>
+      <file>$PROJ_DIR$\defines.h</file>
+      <file>$PROJ_DIR$\ring_buffer.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\bsp.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ring_buffer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\ring_buffer.r90</file>
+      <file>$PROJ_DIR$\burn.h</file>
+      <file>$PROJ_DIR$\protocol.h</file>
+      <file>$PROJ_DIR$\pgm.h</file>
+      <file>$PROJ_DIR$\ring_buffer.h</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
+      <file>$PROJ_DIR$\uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\burn.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul-sf.r90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm16.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\burn.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\uart.c</file>
+      <file>$PROJ_DIR$\tools.c</file>
+      <file>$PROJ_DIR$\tools.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\pgm.d90</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25 18 22 20 13 3 2 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\burn.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 22</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 14 8 11 6 21 7 27 15 17 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 8 11 6 21 7 27 15 17 16</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ring_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 12</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 17 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4 0</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 11 8 6 21 7 27 15 17 16 19 14 31</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 8 6 21 7 27 15 17 16 19 14 31</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 11 8 6 21 7 27 15 17 16 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 8 6 21 7 27 15 17 16 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\tools.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 31 11 8 6 21 7 27 15 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31 11 8 6 21 7 27 15 17</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\burn.c</file>
+      <file>$PROJ_DIR$\Release\Obj\burn.r90</file>
+      <file>$PROJ_DIR$\Release\Obj\tools.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\uart.r90</file>
+      <file>$PROJ_DIR$\Release\Obj\burn.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\ring_buffer.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\iom16.h</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom16.inc</file>
+      <file>$PROJ_DIR$\defines.h</file>
+      <file>$PROJ_DIR$\ring_buffer.c</file>
+      <file>$PROJ_DIR$\bsp.h</file>
+      <file>$PROJ_DIR$\burn.h</file>
+      <file>$PROJ_DIR$\protocol.h</file>
+      <file>$PROJ_DIR$\pgm.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\tools.r90</file>
+      <file>$PROJ_DIR$\Release\Exe\pgm.hex</file>
+      <file>$PROJ_DIR$\Release\List\pgm.map</file>
+      <file>$PROJ_DIR$\Release\Obj\ring_buffer.r90</file>
+      <file>$PROJ_DIR$\ring_buffer.h</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
+      <file>$PROJ_DIR$\uart.h</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul-sf.r90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm16.xcl</file>
+      <file>$PROJ_DIR$\Release\Obj\pgm.pbd</file>
+      <file>$PROJ_DIR$\Release\Exe\pgm_eeprom.hex</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Release\Obj\main.r90</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\uart.c</file>
+      <file>$PROJ_DIR$\Release\Exe\pgm_data.hex</file>
+      <file>$PROJ_DIR$\tools.c</file>
+      <file>$PROJ_DIR$\tools.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\burn.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 12 9 11 7 23 8 28 13 20 14</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ring_buffer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 19</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 20 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\pgm.hex</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 18 32 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 25 21 1 29 19 16 3 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 17 18 32 27</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 11 9 7 23 8 28 13 20 14 22 12 34</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 11 9 7 23 8 28 13 20 14 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\tools.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 2</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 34 11 9 7 23 8 28 13 20</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

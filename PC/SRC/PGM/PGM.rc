@@ -1,0 +1,273 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// русский resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)\r\n"
+    "LANGUAGE 25, 1\r\n"
+    "#pragma code_page(1251)\r\n"
+    "#include ""res\\PGM.rc2""  // ресурсы, не редактируемые в Microsoft Visual C++\r\n"
+    "#include ""l.RUS\\afxres.rc""      // Стандартные компоненты\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\PGM.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 74
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О проекте PGM"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "ROM programmer v 1.3",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Alex Lavrentyev,  2015",IDC_STATIC,42,25,114,8
+    DEFPUSHBUTTON   "ОК",IDOK,113,53,50,14,WS_GROUP
+    LTEXT           "alex_lavrentyev@mail.ru",IDC_STATIC,42,36,81,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904e3"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Название организации>"
+            VALUE "FileDescription", "TODO: <Описание файла>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "PGM.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Название организации>. Все права защищены."
+            VALUE "OriginalFilename", "PGM.exe"
+            VALUE "ProductName", "TODO: <Название продукта>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1251
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&О проекте PGM..."
+END
+
+#endif    // русский resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// нейтральный (по умолчанию используемый системой) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PGM_DIALOG DIALOGEX 0, 0, 378, 268
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_STATICEDGE | WS_EX_APPWINDOW
+CAPTION "PGM"
+MENU IDR_MAIN_MENU
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,313,31,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Отмена",IDCANCEL,314,15,50,14,NOT WS_VISIBLE
+    COMBOBOX        IDC_CONN_PORT,17,17,68,67,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Connection Port",IDC_STATIC,7,7,84,33
+    COMBOBOX        IDC_DEV_SEL,119,18,120,233,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Select ROM",IDC_STATIC,107,7,142,33
+    CONTROL         "",IDC_BUF_DAT,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,15,61,341,143
+    GROUPBOX        "Data in Buffer",IDC_STATIC,7,46,364,181
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,292,229,79,14
+    LTEXT           "Op Type",IDC_OP_TYPE,7,228,244,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PGM_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 371
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 261
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAIN_MENU MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Read to Buffer",              ID_FILE_READTOBUFFER
+        MENUITEM "Write from Buffer",           ID_FILE_WRITEFROMBUFFER
+        MENUITEM "Compare to Buffer",           ID_FILE_COMPARETOBUFFER
+    END
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "TEXT to BIN",                 ID_TOOLS_TEXTTOBIN
+        MENUITEM "BIN to TEXT",                 ID_TOOLS_BINTOTEXT
+        MENUITEM "ReScan Serial Ports",         ID_TOOLS_RESCANSERIALPORTS
+    END
+    POPUP "Device"
+    BEGIN
+        MENUITEM "Burn from Buffer",            ID_BOARD_BURNBUFFER
+        MENUITEM "Read to buffer",              ID_BOARD_READ
+        MENUITEM "Blank check",                 ID_DEVICE_BLANKCHECK
+        MENUITEM "Compare to buffer",           ID_DEVICE_COMPARETOBUFFER
+        MENUITEM "Erase",                       ID_DEVICE_ERASE
+        MENUITEM "Run Address Count",           ID_DEVICE_RUNADDRESSCOUNT
+        MENUITEM "Restart Programmator",        ID_DEVICE_RESTARTPROGRAMMATOR
+    END
+END
+
+#endif    // нейтральный (по умолчанию используемый системой) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE 25, 1
+#pragma code_page(1251)
+#include "res\PGM.rc2"  // ресурсы, не редактируемые в Microsoft Visual C++
+#include "l.RUS\afxres.rc"      // Стандартные компоненты
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
