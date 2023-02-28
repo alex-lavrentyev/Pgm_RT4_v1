@@ -7,3 +7,5 @@ KR556RT5
 K573RF2/RF5 and analog
 K573RF4/RF6 and analog
 But very slow work.
+------
+Checked 28.02.2023
